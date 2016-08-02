@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingPrefix"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    android:padding="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--Month-Year and Arrow Marks Container    -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/previous_button"
+            android:layout_alignParentLeft="true"
+            android:text="Prev"
+            fontPath="fonts/freebnb.ttf"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/dialog_title_tv"
+            android:layout_centerInParent="true"
+            android:text="December, 2015"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_alignParentRight="true"
+            android:text="Next"
+            fontPath="fonts/freebnb.ttf"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <!-- Weekdays Header (Static) -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Su"
+            android:gravity="center"
+            android:layout_weight="0.143"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Mo"
+            android:gravity="center"
+            android:layout_weight="0.143"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Tu"
+            android:gravity="center"
+            android:layout_weight="0.143"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="We"
+            android:gravity="center"
+            android:layout_weight="0.143"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Th"
+            android:gravity="center"
+            android:layout_weight="0.143"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Fr"
+            android:gravity="center"
+            android:layout_weight="0.143"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Sa"
+            android:gravity="center"
+            android:layout_weight="0.143"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <!-- Contains Calendar Dates -->
+    <GridView
+        android:visibility="visible"
+        android:id="@+id/calendar_gv"
+        android:numColumns="7"
+        android:verticalSpacing="6dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.05dp"
+        android:background="@color/colorGrey" />
+
+    <!-- Legend Container -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:gravity="center"
+            android:text="Calendar Legend Goes Here"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>

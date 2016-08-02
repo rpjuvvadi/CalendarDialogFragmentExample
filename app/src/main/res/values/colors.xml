@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorTurquoise">#00AFB0</color>
+    <color name="colorTurquoiseLight">#DAECEC</color>
+    <color name="colorTurquoiseTrans">#60DAECEC</color>
+    <color name="colorTurquoiseDark">#00696A</color>
+    <color name="colorTurquoiseLightDark">#007379</color>
+    <color name="colorGrey">#737373</color>
+    <color name="colorGreyDark">#595A5A</color>
+    <color name="colorGreyLight">#F1EFF0</color>
+    <color name="colorMajenta">#F33E6D</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhiteSmoke">#F5F5F5</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorYellow">#FFFF00</color>
+</resources>

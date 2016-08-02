@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CalendarDialogFragmentExample</string>
+    <string name="launch_calendar">Launch Calendar</string>
+</resources>
